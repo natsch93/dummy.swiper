@@ -1,0 +1,19 @@
+@import '~swiper/dist/css/swiper.min.css';
+
+.swiper-container {
+	height: 400px;
+	width: 400px;
+}
+
+.red-box,
+.gold-box {
+	height: 100%;
+}
+
+.red-box {
+	background-color: crimson;
+}
+
+.gold-box {
+	background-color: gold;
+}
