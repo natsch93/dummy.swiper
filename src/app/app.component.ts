@@ -13,7 +13,8 @@ export class AppComponent implements OnInit {
 	isViewportSmall: boolean;
 	config: SwiperConfigInterface = {
 		loop: true,
-		observer: true
+		observer: true,
+		navigation: true
 	};
 	items: string[] = [
 		'item 1',
