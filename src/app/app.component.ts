@@ -47,6 +47,7 @@ export class AppComponent implements OnInit {
 	) { }
 
 	ngOnInit() {
+		// dummy change + tag
 		this.viewportService.sizeType$.pipe(
 			tap(x => this.isViewportSmall = x.type <= ViewportSizeType.small),
 			tap(() => console.warn(">>>> isVPSmall", this.isViewportSmall))
